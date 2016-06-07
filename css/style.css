@@ -90,6 +90,7 @@
 
     #winz{
       position: absolute;
+      margin-left: 4px;
     }
     #lossez{
       position: absolute;

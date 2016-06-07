@@ -1,5 +1,5 @@
    $( document ).ready(function() { 
-    var numberToGuess = Math.floor((Math.random() * 102) + 10);
+    var numberToGuess = Math.floor((Math.random() * 102) + 19);
     var counter = 0;
     var zircon = Math.floor((Math.random() * 12) + 1);
     var sapphire = Math.floor((Math.random() * 12) + 1);
@@ -24,7 +24,7 @@
     });
 
     var reset = function () {
-      numberToGuess =  Math.floor((Math.random() * 102) + 10);
+      numberToGuess =  Math.floor((Math.random() * 102) + 19);
       $('#number').text(numberToGuess);
       counter = 0;
       $('#yourNumber').text(counter);

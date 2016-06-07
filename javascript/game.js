@@ -42,12 +42,12 @@
       if (counter > numberToGuess) {
         losses++;
         $('#lossez').html(losses);
-        $('#end').html("You Lose").fadeIn(750).fadeOut(750);
+        $('#end').html("You Lose").fadeIn(1000).fadeOut(1000);
         reset();
       } else if (counter == numberToGuess) {
         wins++;
         $('#winz').html(wins);
-        $('#end').html("You Win").fadeIn(750).fadeOut(750);
+        $('#end').html("You Win").fadeIn(1000).fadeOut(1000);
         reset();
       };
 

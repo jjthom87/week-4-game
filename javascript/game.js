@@ -8,7 +8,6 @@
     var wins = 0;
     var losses = 0;
 
-
     $('#number').text(numberToGuess);
 
     $("#crystalImage").click(function() {
@@ -43,12 +42,12 @@
       if (counter > numberToGuess) {
         losses++;
         $('#lossez').html(losses);
-        $('#end').html("You Lose");
+        $('#end').html("You Lose").fadeIn(750).fadeOut(750);
         reset();
       } else if (counter == numberToGuess) {
         wins++;
         $('#winz').html(wins);
-        $('#end').html("You Win");
+        $('#end').html("You Win").fadeIn(750).fadeOut(750);
         reset();
       };
 
